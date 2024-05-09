@@ -1,0 +1,47 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #250a0a;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #250a0a;
+}
+
+nav ul li a {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+}
